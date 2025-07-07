@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         CollectionList collectionList = new CollectionList();
         List<String> itemsList = collectionList.getItems();
-        System.out.println("Список вещей в квартире:\n" + itemsList);
+        System.out.println("Список вещей:\n" + itemsList);
         itemsList.add("TV");
-        System.out.println("Список вещей в квартире:\n" + itemsList);
+        System.out.println("Список вещей:\n" + itemsList);
     }
 }
 

@@ -5,10 +5,9 @@ import java.util.List;
 
 public class CollectionList {
 
-    private List<String> items;
+    private List<String> items = new ArrayList<>();
 
     public List<String> getItems() {
-        items = new ArrayList<>();
         items.add("chair");
         items.add("table");
         items.add("bed");
@@ -19,15 +18,11 @@ public class CollectionList {
 
         for (String item : items) {
             System.out.println(item);
-        return item;
-    }
-
-    /*public void printItems() {
-        for (String item : items) {
-            System.out.println(item);
-        }*/
+        }
+        return items;
     }
 }
+
 
   /*
         for (int i = 0; i < items.size(); i++) {
