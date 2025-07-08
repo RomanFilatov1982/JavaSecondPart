@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CollectionList {
 
-    private List<String> items = new ArrayList<>();
+    private List<String> items = new ArrayList<>(15);
 
     public List<String> getItems() {
         items.add("chair");
